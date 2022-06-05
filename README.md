@@ -1,5 +1,4 @@
-# cavstools
-===================================================
+### cavstools
 1. gene extraction from complete genome.
 
 cavtools extract reference_gene.fasta genome.fasta
@@ -19,7 +18,7 @@ report
 a. extracted sequence length
 b. alignment
 c. check ORF
-===================================================
+
 2. multidimensional scaling
 
 cavstools mds dist.txt labels.txt
