@@ -19,7 +19,7 @@ a. extracted sequence length
 b. alignment
 c. check ORF
 
-###multidimensional scaling
+### multidimensional scaling
 
 cavstools mds dist.txt labels.txt
 
@@ -29,15 +29,15 @@ a. distant matrix
 output
 a. labels with principal components
 
-###fasta ID extraction with length annotation
+### fasta ID extraction with length annotation
 
 cavstools extract_id refseq.fasta
 
-###assembly comparison with bam file and filling in the bases
+### assembly comparison with bam file and filling in the bases
 
 cavstools compile assembly.fasta bam
 
-###5. assembly comparison with bam file and filling in the bases
+### assembly comparison with bam file and filling in the bases
 
 cavstools compile assembly.fasta bam
 
