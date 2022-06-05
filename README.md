@@ -28,15 +28,15 @@ a. distant matrix
 
 output
 a. labels with principal components
-===================================================
+
 ###3. fasta ID extraction with length annotation
 
 cavstools extract_id refseq.fasta
-===================================================
+
 ###4. assembly comparison with bam file and filling in the bases
 
 cavstools compile assembly.fasta bam
-===================================================
+
 ###5. assembly comparison with bam file and filling in the bases
 
 cavstools compile assembly.fasta bam
