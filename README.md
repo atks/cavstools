@@ -41,5 +41,26 @@ cavstools compile assembly.fasta bam
 
 cavstools compile assembly.fasta bam
 
+### global align
+
+cavstools galign a.fasta b.fasta
+
+### local align
+
+cavstools lalign a.fasta b.fasta
+
+### call variants 
+
+cavstools call a.bam
+
+### assemble
+
+cavstools assemble a.fastq
+
+
+
+
+
+
 
 
