@@ -1,0 +1,15 @@
+[package]
+name = "cavstools"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+clap = { version = "4.2.3", features = ["derive"] }
+needletail = "0.5.1"
+gb-io = "0.7.1"
+flate2 = "1.0.25"
+atty = "0.2"
+string-interner = "0.14.0"
