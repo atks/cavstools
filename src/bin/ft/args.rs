@@ -42,6 +42,6 @@ pub enum EntityType {
     Stats(StatsArgs),
     ///Convert genbank format to FASTA
     GenbankToFasta(GenbankToFastaArgs),
-    ///Annotate genbank features on a new sequence
+    ///Annotate genbank features on a new sequence test
     Annotate(AnnotateArgs),
 }
