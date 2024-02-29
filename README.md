@@ -14,4 +14,5 @@ Tools
        i. considers ambiguous alleles 
 
 Pipeline
-1. Iterative reference aligner for deep data / shallow data       
+1. Iterative reference aligner for deep data / shallow data  
+2.      
