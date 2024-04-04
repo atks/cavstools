@@ -13,6 +13,11 @@ Tools
     b. generate VCF calls for single sample
        i. considers ambiguous alleles 
 
+Reverse complement
+format generation
+filter system
+
+
 Pipeline
 1. Iterative reference aligner for deep data / shallow data  
 2.      
