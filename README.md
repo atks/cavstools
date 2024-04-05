@@ -2,7 +2,7 @@
 
 ft 
 
-Tools
+tools
 1. Sequence Annotator
     a. copies annotations from another genbank file
     b. consensus?
@@ -12,12 +12,15 @@ Tools
     a. terminal chromatogram viewer
     b. generate VCF calls for single sample
        i. considers ambiguous alleles 
+5. sequence characterization
+	mdm tay
 
-Reverse complement
-format generation
-filter system
+basic tools
+1. reverse complement
+2. format generation
+3. filter algebra
 
 
-Pipeline
-1. Iterative reference aligner for deep data / shallow data  
+pipeline
+1. iterative reference aligner for deep data / shallow data  
 2.      
