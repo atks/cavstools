@@ -31,6 +31,9 @@ pub struct AnnotateArgs {
     input_fasta_file: Option<String>,
 }
 
+/// Annotate a fasta file with features from a genbank file.
+///
+
 pub fn run(args: AnnotateArgs) {
     let genbank_file = File::open(args.genbank_file.unwrap()).unwrap();
     let input_fasta_file = File::open(args.input_fasta_file.unwrap()).unwrap();
