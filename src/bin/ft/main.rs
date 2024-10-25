@@ -15,8 +15,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#![feature(unix_sigpipe)]
-
 mod annotate;
 mod args;
 mod filter;
@@ -27,7 +25,6 @@ use args::FtArgs;
 use atty::Stream;
 use clap::Parser;
 
-#[unix_sigpipe = "sig_dfl"]
 fn main() {
     let args: FtArgs = FtArgs::parse();
 

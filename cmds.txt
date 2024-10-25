@@ -2,3 +2,6 @@ rustup install nightly
 rustup default nightly
 cargo +nightly install --bin ft --path .
 
+#unix_sigpipe functionality moved to a compiler flag.  
+RUSTFLAGS="-Zon-broken-pipe=kill"
+
