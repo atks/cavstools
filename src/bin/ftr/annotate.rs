@@ -37,10 +37,10 @@ pub struct AnnotateArgs {
 pub fn run(args: AnnotateArgs) {
     let genbank_file = File::open(args.genbank_file.unwrap()).unwrap();
     let input_fasta_file = File::open(args.input_fasta_file.unwrap()).unwrap();
-    let reader = needletail::parse_genbank(genbank_file).unwrap();
-    let mut writer = needletail::parse_fasta(input_fasta_file).unwrap();
-    for record in reader {
-        let record = record.unwrap();
-        writer.write_record(&record).unwrap();
-    }
+    // let reader = needletail::parse_genbank(genbank_file).unwrap();
+    // let mut writer = needletail::parse_fasta(input_fasta_file).unwrap();
+    // for record in reader {
+    //     let record = record.unwrap();
+    //     writer.write_record(&record).unwrap();
+    // }
 }
